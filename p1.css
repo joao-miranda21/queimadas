@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 3;
+    text-align: center;
+    color: #ffffff; 
+    background-image: url('https://media.istockphoto.com/id/1004035146/pt/foto/black-wooden-wall-background-texture-of-dark-bark-wood-with-old-natural-pattern-for-design-art.jpg?s=612x612&w=0&k=20&c=83TR1spGeppMzIF2mLLkE3-lJZdzzIKfvKes-k4F6v8=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: #ff5722;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgRbGqXYv3slkV08uq0sTDPhljnNsvarVChA&s');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 30px; 
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin:  0 10px;
+    font-size: 1.0em; 
+}
+
+nav a {
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3em; 
+}
+
+h2 {
+    margin: 20px 0;
+    color: #FFFFFF; 
+    font-size: 2.5em; 
+}
+
+h3 {
+    margin: 15px 0;
+    color: #ffffff; 
+    font-size: 1.5em; 
+}
+
+.imagem-destaque {
+    width: 50%;
+    height: auto;
+    border-radius: 15px; 
+}
+
+main {
+    padding: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imagem-galeria {
+    width: calc(35% - 10px);
+    height: auto;
+    transition: transform 0.3s ease; 
+    border-radius: 15px; 
+    overflow: hidden; 
+}
+
+.imagem-galeria:hover {
+    transform: scale(1.1); 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    margin: 5px 0 5px;
+    color: #FFFFFF; 
+    font-size: 1.5em; 
+}
+
+input, textarea, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.5em; 
+}
+
+button {
+    background: #333;
+    color: #FFFFFF; 
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #FFFFFF; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.5em; 
+}
+
+p {
+    font-size: 1.0em; 
+    color: #FFFFFF; 
+    margin: 10px 0; 
+}
+
+@media (max-width: 600px) {
+    .imagem-galeria {
+        width: 100%;
+    }
+}
